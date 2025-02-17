@@ -113,3 +113,4 @@ Y accedemos al servidor de django
 python manage.py runserver
 ```
 
+![acceso](https://github.com/abbyenredes/Bootcamp-IA-F5/blob/main/Taller_django/img/acceso.gif)
