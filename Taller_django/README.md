@@ -104,3 +104,12 @@ Finalmente vamos a crear nuestro super user:
 ```plaintext
  python3 manage.py createsuperuser
 ```
+
+![superuser](https://github.com/abbyenredes/Bootcamp-IA-F5/blob/main/Taller_django/img/superusuario-_1_.gif)
+
+Y accedemos al servidor de django
+
+```plaintext
+python manage.py runserver
+```
+
