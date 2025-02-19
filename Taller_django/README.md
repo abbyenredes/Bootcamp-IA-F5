@@ -44,6 +44,13 @@ Nos crea la carpeta book_manage que contiene los sigientes archivos:
 
 ![book](https://github.com/abbyenredes/Bootcamp-IA-F5/blob/main/Taller_django/img/book.png)
 
+En la carpeta book_manage -> settings.py -> instale apps agregamos una linea para `'books',` para anexarlo.
+
+![setting](https://github.com/abbyenredes/Bootcamp-IA-F5/blob/main/Taller_django/img/setting.png)
+
+> [!IMPORTANT]
+> escribir books con b minuscula ya que si no dara error
+
 Por ultimo iniciamos la app:
 
 ```plaintext
@@ -54,12 +61,6 @@ Nos crea la carpeta books que contiene los sigientes archivos:
 ![book2](https://github.com/abbyenredes/Bootcamp-IA-F5/blob/main/Taller_django/img/book2.png)
 
 ## Configuracion
-En la carpeta book_manage -> settings.py -> instale apps agregamos una linea para `"books",`
-
-![setting](https://github.com/abbyenredes/Bootcamp-IA-F5/blob/main/Taller_django/img/setting.png)
-
-> [!IMPORTANT]
-> escribir books con b minuscula ya que si no dara error
 
 En la carpeta books -> models.py realizamos el siguiente modelo:
 
