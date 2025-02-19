@@ -100,7 +100,7 @@ class BookAdmin(admin.ModelAdmin):
  python3 manage.py migrate
 ```
 
-Finalmente vamos a crear nuestro super user:
+Vamos a crear nuestro super user:
 
 ```plaintext
  python3 manage.py createsuperuser
@@ -108,7 +108,38 @@ Finalmente vamos a crear nuestro super user:
 
 ![superuser](https://github.com/abbyenredes/Bootcamp-IA-F5/blob/main/Taller_django/img/superusuario-_1_.gif)
 
-Y accedemos al servidor de django
+Para indicarle a API que accion realizar en la Carpeta books -> view.py agregamos lo siguiente: 
+
+```python
+from django.shortcuts import render
+from models import Book
+
+# Create your views here.
+
+def GetAllBook(request):
+    books = Book.objects.all()
+    return render(request, 'books/books.html', {'libros': books})
+```
+Dentro de la carpeta creamos una subcarpeta llamada `templates` -> dentro creamos una carpeta llamada `books` dentro de books creamos un archivo llamado `books.html` en la cual volcamos lo siguiente:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book list</title>
+</head>
+<body>
+    <ul>
+        {% for book in libros %}
+            <li>{{ book.title }} - {{book.author }} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+``` 
+Accedemos al servidor de django
 
 ```plaintext
 python manage.py runserver
