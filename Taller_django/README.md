@@ -112,7 +112,7 @@ Para indicarle a API que accion realizar en la Carpeta books -> view.py agregamo
 
 ```python
 from django.shortcuts import render
-from models import Book
+from .models import Book
 
 # Create your views here.
 
