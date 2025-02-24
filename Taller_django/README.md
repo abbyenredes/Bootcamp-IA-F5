@@ -146,3 +146,22 @@ python manage.py runserver
 ```
 
 ![acceso](https://github.com/abbyenredes/Bootcamp-IA-F5/blob/main/Taller_django/img/acceso.gif)
+
+# Agregemos la BBDD
+> [!IMPORTANT]
+> Si tienes linux o mac primero debes descargar mysql:
+
+Linux: 
+
+```plaintext
+sudo apt update
+sudo apt install libmysqlclient-dev
+```
+
+Mac: 
+
+```plaintext
+brew install mysql-client
+```
+
+Ahora vamos a 
