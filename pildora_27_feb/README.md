@@ -24,3 +24,19 @@ Vamos a crear test que nos ayuden a pulir y optimizar nuestro código.
 | **Complejidad**           | Baja, son simples de escribir y ejecutar.                                                           | Mayor, ya que incluyen múltiples componentes y su configuración.                          |
 | **Velocidad de ejecución**| Rápidas, debido a la falta de dependencias externas.                                               | Más lentas, ya que dependen de la interacción entre módulos y recursos externos.          |
 | **Cuándo aplicarlas**     | Durante el desarrollo, antes de la integración del sistema completo.                               | Después de las pruebas unitarias, al integrar los componentes del sistema.                |
+
+
+## Comparativa de Herramientas de Testing en Python
+
+| **Herramienta**     | **Tipo de Prueba**              | **Pros** | **Contras** |
+|---------------------|--------------------------------|----------|-------------|
+| **unittest**       | Unitarias                      | Incluido en la biblioteca estándar. <br> Amplia documentación y comunidad. | Sintaxis más detallada que otras herramientas. |
+| **pytest**         | Unitarias e integración        | Sintaxis sencilla y fácil de usar. <br> Soporte para fixtures y plugins. | Requiere instalación adicional. |
+| **nose2**          | Unitarias e integración        | Extiende funcionalidades de unittest. <br> Soporte para plugins. | Menos popular que unittest y pytest. |
+| **doctest**        | Unitarias                      | Permite escribir pruebas en docstrings. <br> Fácil de usar en pequeños módulos. | Menos adecuado para pruebas complejas. |
+| **Hypothesis**     | Pruebas basadas en propiedades | Genera datos de prueba automáticamente. <br> Detecta casos límite inesperados. | Puede ser más complejo de configurar. |
+| **Schemathesis**   | Pruebas de API                 | Pruebas automáticas para APIs OpenAPI/Swagger. <br> Detecta errores de contrato. | Requiere documentación OpenAPI bien definida. |
+| **Playwright**     | Pruebas de UI/E2E              | Soporta múltiples navegadores. <br> Rápido y confiable para pruebas front-end. | Puede ser más complejo de configurar en proyectos grandes. |
+| **Robot Framework**| Pruebas de aceptación/E2E      | Sintaxis basada en palabras clave fácil de leer. <br> Soporte para Selenium, API y más. | Menos flexible para pruebas unitarias. |
+| **Locust**         | Pruebas de carga               | Pruebas de rendimiento con Python. <br> Fácil de escalar y simular miles de usuarios. | No adecuado para pruebas funcionales o unitarias. |
+
