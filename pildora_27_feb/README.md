@@ -3,7 +3,7 @@
 ## Acerca del proyecto
 Vamos a crear test que nos ayuden a pulir y optimizar nuestro código.
 
-### Mis herramientas
+## Mis herramientas
 * Ciclo de vida del software con efoque ágil: [desarrolo de software](https://www.canvia.com/ciclo-vida-desarrollo-software/)
 * Desarrollo de software paso a paso: [desarrolla paso a paso](https://www.red-tic.unam.mx/desarrollo-de-software)
 * Claves de un buen testing: [Testing](https://www.linkedin.com/pulse/por-qu%C3%A9-el-testing-es-clave-en-desarrollo-de-software-cristian/)
@@ -12,12 +12,12 @@ Vamos a crear test que nos ayuden a pulir y optimizar nuestro código.
 * Tipos de test en python: [herramientas de test](https://openwebinars.net/blog/herramientas-de-testing-en-python/)
 * Documentación de Unittest: [documentación Unittest](https://docs.python.org/3/library/unittest.html)
 
-### ¿Por qué realizar test?
+## ¿Por qué realizar test?
 La fase de testing es un pilar fundamental del ciclo de vida útil del desarrollo de software:
 
 ![ciclo de vida](https://www.canvia.com/wp-content/uploads/2024/08/canvia-infos-mesa-de-trabajo-1-copia-9-1200x1131.png)
 
-#### Importancia del Testing en el Desarrollo de Software  
+### Importancia del Testing en el Desarrollo de Software  
 
 El testing es una etapa crucial en el desarrollo de software, ya que garantiza que el software funcione correctamente y cumpla con los requisitos del usuario. Su correcta implementación ayuda a:  
 
@@ -25,7 +25,7 @@ El testing es una etapa crucial en el desarrollo de software, ya que garantiza q
 - **Asegurar la calidad del software**, mejorando la experiencia del usuario.  
 - **Mejorar la seguridad**, identificando vulnerabilidades y evitando riesgos.  
 
-#### Buenas Prácticas para un Testing Efectivo  
+### Buenas Prácticas para un Testing Efectivo  
 
 1. **Planificación y diseño**: Definir objetivos, requisitos y criterios de aceptación.  
 2. **Automatización**: Ahorra tiempo y mejora la precisión de las pruebas.  
