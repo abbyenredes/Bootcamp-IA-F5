@@ -10,6 +10,7 @@ Vamos a crear test que nos ayuden a pulir y optimizar nuestro código.
 * ¿Por qué? buenas practicas: [puebas unitarias](https://yeeply.com/blog/tendencias-habilidades/que-son-pruebas-unitarias/)
 * Diferencia entre test unitarios y de integración: [test unitarios vs test integracion](https://hackernoon.com/lang/es/la-diferencia-entre-pruebas-unitarias-y-pruebas-de-integraci%C3%B3n)
 * Tipos de test en python: [herramientas de test](https://openwebinars.net/blog/herramientas-de-testing-en-python/)
+* Documentación de Unittest: [documentación Unittest](https://docs.python.org/3/library/unittest.html)
 
 
 ## Comparación entre Pruebas Unitarias y Pruebas de Integración
